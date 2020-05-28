@@ -84,6 +84,9 @@ li:hover{
         height: 5px;
         width: 5px;
     }
+    *{
+        font-size: small;
+    }
 
      
 }
