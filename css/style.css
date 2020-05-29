@@ -64,7 +64,7 @@ li:hover{
    height: 16px;
 
 }
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 600px) {
     
     #navigation {
         width: 100px;
