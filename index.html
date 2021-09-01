@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Curriculum Vitae</title>
     <link href="css/style.css" rel="stylesheet">
 </head>
 
@@ -16,8 +16,9 @@
 
             <ul id='navbar-link'>
 
-                <li><a href="#competences" class="navlink">Compétences</a></li>
                 <li><a href="#formations" class="navlink">Formations</a></li>
+                <li><a href="#competences" class="navlink">Compétences</a></li>
+                <li><a href="#experiences" class="navlink">Experiences</a></li>
 
                 <li><a href="#projets" class="navlink">Projets</a></li>
                 <li><a href="#contact" class="navlink">Contact</a></li>
@@ -57,7 +58,9 @@
 
 
 
-        <br><br><br> <br><br><br>
+        <br><br>
+        <h3  class="shadow text-intro center animation"> &lt;I ❤ coding/&gt; </h3>
+        <br> <br>
         <div id='formations'>
             <div>
                 <h1><img class='rounded-img' src="img/graduation-hat.svg"> Formations
@@ -163,35 +166,108 @@
                 <h1><img class='rounded-img' src="img/projects.svg"> Mes Projets
                 </h1>
             </div>
-            <div >
-                <div>    
-                    <h1 style="text-align: center;">2021</h1>
-                     
+            <div>
+                <h1 style="text-align: center;">2021</h1>
+                <div class="projets-display">
+
+
                     <div class="projets-box">
-                     <h3>Generateur de mot de passe</h3>
-                     <p>Technologies:<em>Python-PyQT </em></p>
-                     <h4>Type: Application bureau</h4>
-                     
-                     
-                     <a href="https://github.com/bambadiagne/Generateur-de-mot-de-passe" class="button-projects" >Voir plus</a  >
-                        
-                        </div>
-                              
-                    </div>                                                                                         
-                    <h1 style="text-align: center;">2020</h1>                                                                                         
-                    <div class="projets-box">
-                        <h3>Generateur de mot de passe</h3>
+                        <h3 class="projet-title">Generateur de mot de passe</h3>
                         <p>Technologies:<em>Python-PyQT </em></p>
                         <h4>Type: Application bureau</h4>
-                        
-                        
-                        <a href="https://github.com/bambadiagne/Generateur-de-mot-de-passe" class="button-projects" >Voir plus</a  >
-                           
-                           </div>
-                                 
-                       </div>                                                                                         
-                                   
-                <!-- <div>
+
+
+                        <a href="https://github.com/bambadiagne/Generateur-de-mot-de-passe" target="blank"
+                            class="button-projects">Voir plus</a>
+
+                    </div>
+
+
+
+                </div>
+                <h1 style="text-align: center;">2020</h1>
+                <div class="projets-display">
+
+                    <div class="projets-box">
+                        <h3 class="projet-title">Implémentation de systèmes cryptographiques(symétrique
+                            :AES,DES,classique) en python</h3>
+                        <p>Technologies:<em>Python,Jupyter Notebook</em></p>
+                        <h4>Type: Cryptographie,NoteBook</h4>
+
+
+                        <a href="https://github.com/bambadiagne/BlogApp" target="blank" class="button-projects">Voir
+                            plus</a><small>En ligne bientot</small>
+
+                    </div>
+
+                    <div class="projets-box">
+                        <h3 class="projet-title">API pour la gestion des billets de bus et des users</h3>
+                        <p>Technologies:<em>Django-REST,SQLlite,Bootstrap</em></p>
+                        <h4>Type: Application Web(Backend)</h4>
+
+
+                        <a href="https://github.com/bambadiagne/UserManager" target="blank" class="button-projects">Voir
+                            plus</a>
+
+                    </div>
+
+                    <div class="projets-box">
+                        <h3 class="projet-title">Application Web de critique de livres</h3>
+                        <p>Technologies:<em>Flask,PostgresSQL,ApiGoodReads </em></p>
+                        <h4>Type: Application Web</h4>
+
+
+                        <a href="http://booproject1.herokuapp.com/" target="blank" class="button-projects">Voir plus</a>
+                        <small>En ligne</small>
+                    </div>
+
+                    <div class="projets-box">
+                        <h3 class="projet-title">Application Web(Blog)</h3>
+                        <p>Technologies:<em>Angular,Bootstrap,FireBase(backend)</em></p>
+                        <h4>Type: Application Web</h4>
+
+
+                        <a href="https://github.com/bambadiagne/BlogApp" target="blank" class="button-projects">Voir
+                            plus</a><small>En ligne bientot</small>
+
+                    </div>
+
+
+
+
+                </div>
+                <h3 class="center"> Il reste d'autres projets dans mon github sur cette année</h3>
+                <h1 class="center">2019</h1>
+                <div class="projets-display">
+
+
+                    <div class="projets-box">
+                        <h3 class="projet-title">Implémentation de services réseaux(DHCP,DNS,SSH,RSYSLOG)</h3>
+                        <p>Systemes d'exploitation:<em>Centos,Debian</em></p>
+                        <h4>Type: Reséau et Administration</h4>
+
+
+                    </div>
+
+
+                    <div class="projets-box">
+                        <h3 class="projet-title">Logiciel de gestion scolaire</h3>
+                        <p>Technologies:<em>Java,JavaFX Scene Builder</em></p>
+                        <h4>Type: Application Bureau</h4>
+
+
+
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+
+
+            <!-- <div>
                     <video width="320" height="240" controls>
                         <source src="content/Categorie2.mp4" type="video/mp4">
                         Your browser does not support the video tag.
@@ -199,12 +275,66 @@
                       
                 </div>
              -->
+        </div>
+        <div id="experiences">
+            <h1>Experiences</h1>
+
+            <div class="center">
+                <p><em>Developpeur Full-Stack</em></p>
+                <h3> T2M Consulting And
+                    Services - SARL</h3>
+                <a href="https://sandagamontreal.com/annonces" target="blank" class="button-projects">Voir
+                    plus</a>
+                <p>Duree:Depuis 4 mois jusqu'a maitenant</p>
+            </div>
+        </div>
+
+    </div>
+    <div>
+        <div>
+            <h1><img class='rounded-img' src="img/skill.svg"> Contact
+            </h1>
+        </div>
+        <div id="contact">
+            <div class="google-map" ><iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=200&amp;hl=en&amp;q=HLM%20Hann%20Maristes%20+(Mes%20Coordonn%C3%A9es)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://www.maps.ie/draw-radius-circle-map/">Google radius map</a></div>
+            <div class="right ">
+                <form method="POST"
+                    action="https://script.google.com/macros/s/AKfycbyYYoHgiSNjG9tZxe8pPfbg0CHptKS33mXcq2oOIv04BIU3Fy9mReaNGxVHnnYbhx_fZQ/exec"
+                    data-email="diagnekhadimx@gmail.com">
+                    <fieldset class="contact-form">
+                        <div>
+                            <label class="label-form" for="name"><img class="icon" src="img/user-solid.svg">Nom</label>
+                            <input name="name" id="name" type="text">
+                        </div><br>
+                        <div>
+                            <label class="label-form" for="email"><img class="icon" src="img/at-solid.svg">Email</label>
+                            <input name="Email" id="email" type="email">
+                        </div><br>
+                        <div>
+                            <textarea name="message" id="message" placeholder="Ecrire ici" cols="50" rows="10"></textarea>
+                        </div><br>
+                        
+                        <button type="submit">Envoyer</button>
+                    </fieldset>
+                </form>
             </div>
 
         </div>
-        <div class="" id="contact">
-            <h2>CONTACT</h2>
+    </div>
+    <div id="footer">
+        <div class="link-contact">
+          <a  href="https://wa.me/+221779449628?text=Salut"><img class="rounded-img" src="img/phone-call.png" alt="">(+221) 77 944 96 28</a>  
         </div>
+        <div>
+            <span><img class="rounded-img" src="img/email.png" alt="">diagnekhadimx@gmail.com</span>
+        </div>
+        <div class="link-contact"> 
+             <a  href="https://github.com/bambadiagne"><img class="rounded-img" src="img/github-logo.png" alt="">Github</a>  
+        </div>
+        <div class="link-contact">
+            <a  href="https://www.linkedin.com/in/ahmadou-bamba-diagne/"><img class="rounded-img" src="img/linkedin.png" alt="">LinkedIn</a>  
+       </div>
+    </div>
 
     </div>
 </body>
