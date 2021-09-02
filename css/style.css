@@ -82,6 +82,7 @@ h1{
 #navbar-link li a {
     list-style: none;
     text-decoration: none;
+    color:white;
    
 }
 li{
@@ -90,7 +91,9 @@ li{
     cursor: pointer;
    
 }
-
+a:visited{
+    color: white;
+}
 
 #navbar-link li {
  transition: background-color 2s;  
@@ -209,9 +212,6 @@ li:hover{
 #experiences{
     background-color: var(--green);   
 }
-a:visited{
-    color: white;
-}
 #contact{
 
     display: flex;
@@ -281,14 +281,10 @@ input:focus{
     .competences-flex{
         display: flex;
        flex-direction: column;
+       width: 100%;
        
     }
     
-    .competences-box{
-        width: 100%;
-        
-        
-    }
     
     
     #introduction{
@@ -356,6 +352,10 @@ input:focus{
     #footer{
         flex-direction: column;
     }
-               
+    .competences-box{
+        width: 100%;
+        
+    }
+    
      
 }
