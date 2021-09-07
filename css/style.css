@@ -59,6 +59,10 @@ h2 {
 	font-size: 20px;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.img-block{
+	margin-right: 10%;
+	border-radius: 50%;
+}
 
 .center {
 	text-align: center;
@@ -312,11 +316,15 @@ input:focus {
 }
 
 .link-contact {
+	color:white;
 	text-decoration: none;
 }
 
 .link-contact:visited {
 	color: white;
+}
+.percent{
+	width: 80%;
 }
 
 @media only screen and (max-device-width: 767px) {
@@ -403,7 +411,15 @@ input:focus {
 	#footer {
 		flex-direction: column;
 	}
-	.competences-box {
-		margin-left: 30%;
+	.percent{
+		width: 100%;
 	}
+	.competences-box{
+		margin-left: 20%;
+	}
+	.img-block{
+		height: 32px;
+		width: 32px;
+	}
+	
 }
