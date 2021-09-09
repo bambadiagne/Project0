@@ -110,7 +110,7 @@ h2 {
 	color: white;
 }
 
-li {
+#navbar-link li {
 	display: inline;
 	padding: 10px;
 	cursor: pointer;
@@ -124,7 +124,7 @@ a:visited {
 	transition: background-color 2s;
 }
 
-li:hover {
+#navbar-link li:hover {
 	background-color: var(--red);
 }
 
@@ -326,6 +326,39 @@ input:focus {
 .percent{
 	width: 80%;
 }
+#service  {
+	color: white;
+}
+.display-service{
+	display: flex;
+	flex-wrap: wrap;
+}
+.card-service{
+	padding-bottom: 1%;
+	width: 30%;
+	margin: 1%;
+	border: 2px solid var(--black);
+	border-radius: 10px;
+	padding-bottom: 5%;
+	box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+	background-color: white;}
+.text-display{
+	color:black;
+	text-align:center;
+}
+.img-service{
+	margin-left:40%;
+}
+.dark-card:hover {
+	background-color: var(--red);
+	color:white;
+}
+.text-display:hover{
+	color:white;
+}
+
+
+
 
 @media only screen and (max-device-width: 767px) {
 	p,
@@ -420,6 +453,14 @@ input:focus {
 	.img-block{
 		height: 32px;
 		width: 32px;
+	}
+	.card-service{
+		width: 100%;
+		margin-top: 10px;
+		
+	}
+	.display-service{
+		flex-direction: column;
 	}
 	
 }
